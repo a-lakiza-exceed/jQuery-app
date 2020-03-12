@@ -10,20 +10,37 @@
 <body>
     <div class="container">
         <div class="list">
-            <div class="listItem yellowBG">
-                <div class="checboxArea"></div>
-                <p>todo</p>
+            <!-- <div class="listItem yellowBG">
+                <div class="checkboxArea">
+                    <input type="checkbox">
+                </div>
+                <p class="listItemText">todo</p>
             </div>
             <div class="listItem redBG">
-                <div class="checboxArea"></div>
-                <p>todo</p>
+                <div class="checkboxArea">
+                    <input type="checkbox">
+                </div>
+                <p class="listItemText">todo</p>
             </div>
             <div class="listItem blueBG">
-                <div class="checboxArea"></div>
-                <p>todo</p>
-            </div>
+                <div class="checkboxArea">
+                    <input type="checkbox">
+                </div>
+                <p class="listItemText">todo</p>
+            </div> -->
         </div>
-        <div class="newElement"></div>
+        <div class="newElement">
+            <input class="newElementInput" type="text" placeholder="Add New Item">
+            <div class="colorPicker">
+                <a class="colorPickerItem redBG" tabindex="0"></a>
+                <a class="colorPickerItem pinkBG" tabindex="0"></a>
+                <a class="colorPickerItem purpleBG" tabindex="0"></a>
+                <a class="colorPickerItem blueBG" tabindex="0"></a>
+                <a class="colorPickerItem aquaBG" tabindex="0"></a>
+                <a class="colorPickerItem yellowBG" tabindex="0"></a>
+            </div>
+            <button class="addButton">Add</button>
+        </div>
     </div>
     <script src="jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
